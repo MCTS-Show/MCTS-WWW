@@ -3,21 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>FAQq | Minecraft Tube Show</title>
+	<title>FAQ | Minecraft Tube Show</title>
 	<?php include 'includes/head.php'; ?>
-	<!-- SEO -->
-	<meta property="og:site_name" content="">
-    <meta name="keywords" content=""> <!-- Example minecraft server, best server, survival, faction server etc... -->
-    <meta name="description" content=""> <!-- Example With almost one years of experience developing Minecraft servers, PixoWorld aims to provide one of the most custom and unique playing experiences possible. -->
-    <meta property="og:image" content="">  <!-- Link for your logo or banner of server -->
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="640"> <!-- Dimension of your banner width -->
-    <meta property="og:image:height" content="280"> <!-- Dimension of your banner height -->
-    <meta property="og:site_name" content=""> <!-- Server name [PixoWORLD] -->
-    <meta property="og:title" content=""> <!-- Title -->
-    <meta name="description" content="">  <!-- Description -->
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://yourwebsite.com"> <!-- Put your url of website -->
 </head>
 <body class="custom-bg">
 	

@@ -5,21 +5,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Minecraft Tube Show</title>
 	<?php include 'includes/head.php'; ?>
-	<!-- SEO -->
-	<meta property="og:site_name" content="">
-    <meta name="keywords" content="mcts, minecraft tube show, minecraft turniej, mcc polska, mcc, mccisland, mcts.pl">
-    <meta name="description" content="MCTS to turniej odbywający się w Minecrafcie, stworzony z pasji do gry i z myślą o jej społeczności, działający od 2022 roku. Naszym celem jest organizowanie regularnych, wysokiej jakości turniejów, które nie tylko dostarczą emocji związanych z rywalizacją, ale także będą okazją do integracji graczy.">
-    <meta property="og:image" content="">  <!-- Link for your logo or banner of server -->
-    <meta property="og:image:type" content="image/png">
-    <meta property="og:image:width" content="640"> <!-- Dimension of your banner width -->
-    <meta property="og:image:height" content="280"> <!-- Dimension of your banner height -->
-    <meta property="og:site_name" content="MCTS">
-    <meta property="og:title" content="Minecraft Tube Show">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://mcts.pl">
 </head>
 <body>
-	
 	<?php include 'includes/header.php'; ?>
 
 	<!-- Header -->
@@ -30,18 +17,18 @@
 					<div class="header-text">
 						<h1>MCT<span>S</span></h1>
                         <p><span>MCTS</span> (Minecraft Tube Show) to turniej dla twórców w Minecraft, gdzie udział bierze <span>40 uczestników</span>, będących podzielonych na 10 drużyn. Drużyny walczą w 10 ekscytujących rozgrywkach o jak <span>największą ilość punktów</span>, które określają końcowe miejsca drużyn.</p>
-						<a href="#about-us" class="btn btn-primary">Przeżyj to z nami!</a>
+						<a href="#o-nas" class="btn btn-primary">Przeżyj to z nami!</a>
 					</div>
 				</div>
 <!--				<div class="col-lg-5 d-flex align-items-center header-img">-->
-<!--					<img src="assets/images/puchar.png" class="img-fluid">-->
+<!--					<img src="assets/images/cup.png" class="img-fluid">-->
 <!--				</div>-->
 			</div>
 		</div>
 	</div>
 
     <!-- About us -->
-    <div class="mods py-5 mb-5" id="about-us">
+    <div class="mods py-5 mb-5" id="o-nas">
         <div class="container-fluid container-pixo">
             <!-- Innovation -->
             <div class="innovation row d-flex justify-content-between mb-5">
@@ -100,7 +87,7 @@
 	          						<span class="author"><i class="fas fa-user-tie"></i> Foldet</span>
 	          						<h1 class="title"><a href="#">Zostań testerem!</a></h1>
 	          						<p class="text">Witajcie! Jako iż nasz projekt się ciągle rozwija, potrzebujemy testerów, aby uniknąć końcowo błędów na turnieju...</p>
-	          						<a href="news.php" class="button">Czytaj więcej</a>
+	          						<a href="zostań-testerem" class="button">Czytaj więcej</a>
 	        					</div>
       						</div>
       					</div>
@@ -119,7 +106,7 @@
           							<span class="author"><i class="fas fa-user-tie"></i> Blixy</span>
           							<h1 class="title"><a href="#">Wesprzyj projekt!</a></h1>
           							<p class="text">Siemanko! MCTS 4 nadchodzi wielkimi krokami! A ilość rzeczy, które ulepszamy jest ogromna! Jak zapewne wiecie, prowadzenie takiego projektu...</p>
-          							<a href="news2.php" class="button">Czytaj więcej</a>
+          							<a href="wesprzyj-projekt" class="button">Czytaj więcej</a>
         						</div>
         					</div>
       					</div>
@@ -138,7 +125,7 @@
           							<span class="author"><i class="fas fa-user-tie"></i> Foldet</span>
           							<h1 class="title"><a href="#">MCTS 4 nadchodzi!</a></h1>
           							<p class="text">W ciągu ostatnich tygodni postęp prac nad 4 odsłoną jest coraz większy. Pracujemy także nad specjalną odsłoną MCTS, która...</p>
-          							<a href="news3.php" class="button">Czytaj więcej</a>
+          							<a href="mcts4-nadchodzi" class="button">Czytaj więcej</a>
         						</div>
         					</div>
       					</div>
