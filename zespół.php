@@ -66,13 +66,6 @@
                 </div>
 				<div class="col-lg-4 col-md-4">
                     <div class="staff-box mb-5 text-center">
-                        <img src="assets/images/staffs/flamerin.png" class="mb-3">
-                        <h2 class="mb-0">Flamerin</h2>
-                        <span>Modeler</span>
-                    </div>
-                </div>
-				<div class="col-lg-4 col-md-4">
-                    <div class="staff-box mb-5 text-center">
                         <img src="assets/images/staffs/moris.png" class="mb-3">
                         <h2 class="mb-0">Moris</h2>
                         <span>Budowniczy</span>
