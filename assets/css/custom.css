@@ -813,3 +813,34 @@ img {
     color: var(--light);
     font-size: 16px;
 }
+
+.minigame-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.minigame-img {
+    width: 120px;
+    height: 120px;
+    image-rendering: pixelated;
+    flex-shrink: 0;
+}
+
+.minigame-text {
+    flex: 1;
+}
+
+@media (max-width: 768px) {
+    .minigame-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .minigame-img {
+        width: 150px;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+}
