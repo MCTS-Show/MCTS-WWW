@@ -29,8 +29,8 @@
 
 	<div class="announcements py-5">
 		<div class="container-fluid container-pixo">
-			<h1 class="text-center mb-5">ODLICZANIE DO MCTS 4</h1>
-			<h1 class="text-center mb-5">XX:XX:XX:XX</h1>	
+			<h1 class="text-center mb-5" style="letter-spacing:+5px;">ODLICZANIE DO MCTS 4</h1>
+			<h1 class="text-center mb-3" style="letter-spacing:+5px;">XX:XX:XX:XX</h1>	
 		</div>
 	</div>
 
