@@ -47,10 +47,6 @@ body {
     font-family: 'Gilroy-ExtraBold';
 }
 
-img {
-    pointer-events: none;
-}
-
 .btn {
     transition: all .4s ease 0s;
 }
@@ -824,7 +820,11 @@ img {
     width: 120px;
     height: 120px;
     image-rendering: pixelated;
-    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.minigame-img:hover {
+    transform: scale(1.2);
 }
 
 .minigame-text {
