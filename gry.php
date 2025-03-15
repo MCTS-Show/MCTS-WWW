@@ -13,7 +13,7 @@
 	<!-- Header -->
 	<div class="py-5 header-h">
 		<div class="container-fluid container-pixo text-center">
-			<h1>Nasze gry</h1>
+			<h1>Rozgrywki</h1>
 			<p>Tutaj możesz przeczytać na czym <br /> polegają dane gry w turnieju!</p>
 		</div>
 	</div>

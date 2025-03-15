@@ -1,5 +1,5 @@
 <div class="minigame-container">
-    <img class="minigame-img" src="assets/images/minigames/<?php echo $game_id; ?>.png" onclick="
+    <img class="minigame-img mcts-img" src="assets/images/minigames/<?php echo $game_id; ?>.png" onclick="
         document.getElementById('heading-<?php echo $game_id; ?>').children[0].children[0].click();
     " />
 

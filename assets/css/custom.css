@@ -706,7 +706,6 @@ body {
 .content .staff-box img {
     width: 140px;
     border-radius: 10px;
-    transition: all .2s ease;
 }
 
 .content .staff-box h2 {
@@ -718,14 +717,6 @@ body {
 .content .staff-box span {
     text-transform: uppercase;
     letter-spacing: -.02px;
-}
-
-.content .staff-box:hover img {
-    -webkit-animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-    animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
-    transform: translate3d(0, 0, 0);
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
 }
 
 @-webkit-keyframes shake {
@@ -818,17 +809,20 @@ body {
     gap: 16px;
 }
 
-.minigame-img {
-    width: 120px;
-    height: 120px;
+.mcts-img {
     image-rendering: pixelated;
-    grid-row: 1 / 2;
-    grid-column: 1 / 2;
     transition: transform 0.3s ease;
 }
 
-.minigame-img:hover {
-    transform: scale(1.2);
+.mcts-img:hover {
+    transform: scale(1.1);
+}
+
+.minigame-img {
+    width: 120px;
+    height: 120px;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
 }
 
 .minigame-text {
