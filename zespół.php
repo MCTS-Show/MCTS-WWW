@@ -22,62 +22,61 @@
 	<div class="container-fluid container-pixo">
 		<div class="content pt-5 px-5 my-5">
 			<div class="row">
-				<div class="col-lg-4 col-md-4">
-					<div class="staff-box mb-5 text-center">
-						<img src="assets/images/staffs/foldet.png" class="mb-3 mcts-img">
-						<h2 class="mb-0">Foldet</h2>
-						<span>Główny organizator</span>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="staff-box mb-5 text-center">
-						<img src="assets/images/staffs/kubasek.png" class="mb-3 mcts-img">
-						<h2 class="mb-0">Kubasek</h2>
-						<span>Organizator</span>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-					<div class="staff-box mb-5 text-center">
-						<img src="assets/images/staffs/blixy77.png" class="mb-3 mcts-img">
-						<h2 class="mb-0">Blixy</h2>
-						<span>Organizator</span>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4">
-                    <div class="staff-box mb-5 text-center">
-                        <img src="assets/images/staffs/maciek.png" class="mb-3 mcts-img">
-                        <h2 class="mb-0">Maciek</h2>
-                        <span>Organizator</span>
-                    </div>
-                </div>
-				<div class="col-lg-4 col-md-4">
-                    <div class="staff-box mb-5 text-center">
-                        <img src="assets/images/staffs/biera.png" class="mb-3 mcts-img">
-                        <h2 class="mb-0">Biera</h2>
-                        <span>Zarządca testów</span>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4">
-                    <div class="staff-box mb-5 text-center">
-                        <img src="assets/images/staffs/kubaw.png" class="mb-3 mcts-img">
-                        <h2 class="mb-0">Kubaw</h2>
-                        <span>Programista</span>
-                    </div>
-                </div>
-				<div class="col-lg-4 col-md-4">
-                    <div class="staff-box mb-5 text-center">
-                        <img src="assets/images/staffs/moris.png" class="mb-3 mcts-img">
-                        <h2 class="mb-0">Moris</h2>
-                        <span>Budowniczy</span>
-                    </div>
-                </div>
-				<div class="col-lg-4 col-md-4">
-                    <div class="staff-box mb-5 text-center">
-                        <img src="assets/images/staffs/nafta.png" class="mb-3 mcts-img">
-                        <h2 class="mb-0">Nafta</h2>
-                        <span>Montażysta</span>
-                    </div>
-                </div>
+				<?php
+					$id = "foldet";
+					$name = "Foldet";
+					$description = "Główny organizator";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "kubasek";
+					$name = "Kubasek";
+					$description = "Organizator";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "blixy77";
+					$name = "Blixy";
+					$description = "Organizator";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "maciek";
+					$name = "Maciek";
+					$description = "Organizator";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "biera";
+					$name = "Biera";
+					$description = "Zarządca testów";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "kubaw";
+					$name = "Kubaw";
+					$description = "Programista";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "moris";
+					$name = "Moris";
+					$description = "Budowniczy";
+					include 'includes/staff.php';
+				?>
+
+				<?php
+					$id = "nafta";
+					$name = "Nafta";
+					$description = "Montażysta";
+					include 'includes/staff.php';
+				?>
 			</div>
 		</div>
 	</div>
