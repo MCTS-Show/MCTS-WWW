@@ -2,7 +2,7 @@
 <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark">
 	<div class="container-fluid container-pixo">
 		<a class="navbar-brand" href="/">
-			<img src="assets/images/logo.png" alt="mcts logo">
+			<img src="assets/images/logo.png" alt="mcts logo" class="mcts-img">
 		</a>
 		<button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarPixo" aria-controls="navbarPixo" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="icon-bar top-bar"></span>
