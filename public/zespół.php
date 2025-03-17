@@ -77,6 +77,13 @@
 					$description = "Montażysta";
 					include '../includes/staff.php';
 				?>
+
+				<?php
+					$id = "daemoz";
+					$name = "Daemoz";
+					$description = "Muzyk";
+					include '../includes/staff.php';
+				?>
 			</div>
 		</div>
 	</div>
