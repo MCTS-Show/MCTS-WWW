@@ -37,7 +37,7 @@
 				?>
 
 				<?php
-					$id = "blixy77";
+					$id = "blixy";
 					$name = "Blixy";
 					$description = "Organizator";
 					include 'includes/staff.php';
