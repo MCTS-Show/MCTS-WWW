@@ -1,4 +1,4 @@
-<?php include 'includes/seo.php'; ?>
+<?php include '../includes/seo.php'; ?>
 <!-- Your Favicon icon -->
 <link rel="shortcut icon" href="assets/images/mcts.svg"/>
 <!-- FontAwesome 5 -->

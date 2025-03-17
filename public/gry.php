@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Gry | Minecraft Tube Show</title>
-	<?php include 'includes/head.php'; ?>
+	<?php include '../includes/head.php'; ?>
 </head>
 <body class="custom-bg">
 	
-	<?php include 'includes/header.php'; ?>
+	<?php include '../includes/header.php'; ?>
 
 	<!-- Header -->
 	<div class="py-5 header-h">
@@ -28,7 +28,7 @@
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Miejsce drużyny:<br />
 				Zabójstwo:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -37,7 +37,7 @@
 				$game_description = "Parkour to klasyczna gra, w której wyczucie skoku odgrywa kluczową role. Mapa jest podzielona na rundy oraz etapy: łatwy, średni, trudny, bardzo trudny. Na każdą runde przypada tylko jedna próba, więc jeśli gracz spadnie traci życie. Po stracie wszystkich żyć odpada.";
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Przejście etapu:<br />";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -47,7 +47,7 @@
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Miejsce drużyny:<br />
 				Zabójstwo:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -61,7 +61,7 @@
 				- Biała:<br />
 				- Niebieska:<br />
 				- Żółta:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -70,7 +70,7 @@
 				$game_description = "Deadly Run to zabójczy wyścig, w którym gracze muszą przejść specjalnie przygotowane tory. Dodatkowo mają możliwość walki między sobą, co może mocno utrudnić grę.";
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Miejsce gracza:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -80,7 +80,7 @@
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Miejsce drużyny:<br />
 				Zabójstwo:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -89,7 +89,7 @@
 				$game_description = "Explosion Tag to wybuchowy tryb, w którym gracz posiadający tnt musi sie go czym predzej pozbyc, jesli nie zrobi tego odpowiednio szybko, wybuchnie i zostanie wyeliminowany. Gracze przekazuja miedzy soba tnt uderzajac się, a osoba ktora przetrwa jako ostatnia wygrywa.";
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Miejsce gracza:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -100,7 +100,7 @@
 				$game_collapse_body = "Wygrana:<br />
 				Remis:<br />
 				Zaniesione flagi:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 
 			<?php
@@ -109,13 +109,13 @@
 				$game_description = "Na Hole In The Wall trzeba mieć oczy dookoła głowy. Zabójcze ściany tylko czekają na to, aby zepchnąć z platformy nieświadomych graczy! Ściany mogą pojawiać się z każdej strony, a ich prędkość i trudność zwiększa się z czasem! Dodatkowo trzeba uważać na znikające bloki na platformie oznaczone kolorem czerwonym.";
 				$game_collapse = "Punktacja";
 				$game_collapse_body = "Miejsce gracza:";
-				include 'includes/minigame.php';
+				include '../includes/minigame.php';
 			?>
 		</div>
 	</div>
 
 	<!-- Footer -->
-	<?php include 'includes/footer.php' ?>
+	<?php include '../includes/footer.php' ?>
 
 </body>
 </html>

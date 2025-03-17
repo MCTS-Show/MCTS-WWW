@@ -4,11 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Nowości | Minecraft Tube Show</title>
-	<?php include 'includes/head.php'; ?>
+	<?php include '../includes/head.php'; ?>
 </head>
 <body class="custom-bg">
 	
-	<?php include 'includes/header.php'; ?>
+	<?php include '../includes/header.php'; ?>
 
 	<!-- Header -->
 	<div class="py-5 header-h" style="background: url('assets/images/card-1.webp') no-repeat;background-size:cover;background-attachment:fixed;background-position:center;">
@@ -43,7 +43,7 @@
 	</div>
 
 	<!-- Footer -->
-	<?php include 'includes/footer.php' ?>
+	<?php include '../includes/footer.php' ?>
 
 </body>
 </html>
