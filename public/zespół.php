@@ -79,8 +79,8 @@
 				?>
 
 				<?php
-					$id = "daemoz";
-					$name = "Daemoz";
+					$id = "deamoz";
+					$name = "Deamoz";
 					$description = "Muzyk";
 					include '../includes/staff.php';
 				?>
