@@ -872,8 +872,8 @@ body {
 
 /* Minigame page */
 .game-img {
-    width: 120px;
-    height: 120px;
+    width: inherit;
+    height: inherit;
     grid-row: 1 / 2;
     grid-column: 1 / 2;
 }

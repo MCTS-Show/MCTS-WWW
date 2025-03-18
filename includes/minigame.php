@@ -1,7 +1,9 @@
 <div class="minigame-container">
     <div
         class="shine-img animated-img pixelated"
-        style="mask: url('assets/images/minigames/<?php echo $game_id; ?>.png');"
+        style="mask: url('assets/images/minigames/<?php echo $game_id; ?>.png');
+        width: 120px;
+        height: 120px;"
         onclick="
                 document.getElementById('heading-<?php echo $game_id; ?>').children[0].children[0].click();
         " >
