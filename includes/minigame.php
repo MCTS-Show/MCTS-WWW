@@ -1,10 +1,17 @@
 <div class="minigame-container">
-    <img class="minigame-img mcts-img" src="assets/images/minigames/<?php echo $game_id; ?>.png" onclick="
-        document.getElementById('heading-<?php echo $game_id; ?>').children[0].children[0].click();
-    " />
+    <div
+        class="shine-img animated-img pixelated"
+        style="mask: url('assets/images/minigames/<?php echo $game_id; ?>.png');"
+        onclick="
+                document.getElementById('heading-<?php echo $game_id; ?>').children[0].children[0].click();
+        " >
+        <img 
+            src="assets/images/minigames/<?php echo $game_id; ?>.png"
+            class="game-img"/>
+    </div>
 
     <!-- Minigame -->
-    <div class="bg-dark mb-4 minigame-text faq">
+    <div class="bg-dark mb-4 game-text faq">
         <h3><?php echo $game_title; ?></h3>
         <p><?php echo $game_description; ?></p>
         <!-- Collapse -->
