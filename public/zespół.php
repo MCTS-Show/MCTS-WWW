@@ -58,6 +58,13 @@
 				?>
 
 				<?php
+					$id = "opisek";
+					$name = "Opisek";
+					$description = "Programista";
+					include '../includes/staff.php';
+				?>
+
+				<?php
 					$id = "kubaw";
 					$name = "Kubaw";
 					$description = "Programista";
