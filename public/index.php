@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Minecraft Tube Show</title>
 	<?php include '../includes/head.php'; ?>
-	<script defer src="/public/assets/js/countdown.js"></script>
+	<script defer src="./assets/js/countdown.js"></script>
 </head>
 <body>
 	<?php include '../includes/header.php'; ?>
