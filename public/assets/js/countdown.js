@@ -28,9 +28,9 @@ function update() {
     let content = '';
 
     if(days > 0) content += `${days} d `;
-    if(hours > 0) content += `${hours} h `;
-    if(minutes > 0) content += `${minutes} m `;
-    if(seconds > 0) content += `${seconds} s`;
+    if(days > 0 || hours > 0) content += `${hours} h `;
+    if(days > 0 || hours > 0 || minutes > 0) content += `${minutes} m `;
+    if(days > 0 || hours > 0 || minutes > 0 || seconds > 0) content += `${seconds} s`;
 
     countdown.innerHTML = content;
 }
