@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Minecraft Tube Show</title>
 	<?php include '../includes/head.php'; ?>
+	<script defer src="/public/assets/js/countdown.js"></script>
 </head>
 <body>
 	<?php include '../includes/header.php'; ?>
@@ -29,8 +30,8 @@
 
 	<div class="announcements py-5">
 		<div class="container-fluid container-pixo">
-			<h1 class="text-center mb-5" style="letter-spacing:+5px;">ODLICZANIE DO MCTS 4</h1>
-			<h1 class="text-center mb-3" style="letter-spacing:+5px;">XX:XX:XX:XX</h1>	
+			<h1 class="text-center mb-5" style="letter-spacing:+5px;" id="countdown_top">ODLICZANIE DO MCTS 4</h1>
+			<h1 class="text-center mb-3" style="letter-spacing:+5px;" id="countdown"></h1>
 		</div>
 	</div>
 
